@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I'm Sorry</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>I'm Really Sorry ❤️</h1>
+      <p>
+        Dear, I know I made a mistake and I feel so sorry. <br />
+        Can you forgive me? I promise to make it up to you.<br />
+        You mean so much to me, and I don’t want to lose you.
+      </p>
+      <button onclick="showHeart()">Tap if you forgive me</button>
+      <div id="heart-container" class="hidden">
+        <p>Thank you for forgiving me ❤️</p>
+        <div class="hearts">
+          <!-- Animated hearts -->
+          <div class="heart"></div>
+          <div class="heart"></div>
+          <div class="heart"></div>
+        </div>
+      </div>
+    </div>
+
+    <audio id="background-music" loop>
+      <source src="sorry.mp3" type="audio/mp3" />
+      <!-- Fallback message for unsupported browsers -->
+      Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
